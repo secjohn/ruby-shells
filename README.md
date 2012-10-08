@@ -19,7 +19,7 @@ Bug: The exist command works fine on everything other than Windows, I don't know
 
 To compile it to a exe using ocra use the command:
  "ocra --verbose --no-dep-run --add-all-core shell.rb" 
- Since I didn't figure out a way to give it an exit command on Windows you have to use the -no-dep-run or the compile will hang forever.  The --add-all-core makes the file HUGE, which is no good.  I have put the effort into figuring out what it really needs since I normally use the reverse shell, if someone else figures out a better way let me know.
+ Since I didn't figure out a way to give it an exit command on Windows you have to use the -no-dep-run or the compile will hang forever.  The --add-all-core makes the file HUGE, which is no good.  I have not put the effort into figuring out what it really needs since I normally use the reverse shell, if someone else figures out a better way let me know.
  
 ### Limitations
 The change directory command doesn't work.  So this: 
